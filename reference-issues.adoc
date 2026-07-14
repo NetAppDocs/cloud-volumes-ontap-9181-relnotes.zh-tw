@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: reference-issues.html 
+keywords: issues, bugs, known issues 
+summary: 已知問題列出了可能妨礙您成功使用此版本產品的問題。 
+---
+= Cloud Volumes ONTAP 的已知問題
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知問題列出了可能妨礙您成功使用此版本產品的問題。
+
+此版本中沒有 Cloud Volumes ONTAP 的已知問題。
+
+您可以在 https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["ONTAP 發行說明"^]中找到 ONTAP 軟體的已知問題。

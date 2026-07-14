@@ -1,0 +1,85 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.18.1 包含一項新的增強功能。 
+---
+= Cloud Volumes ONTAP 9.18.1 的新增功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+現在您可以部署和升級到 Cloud Volumes ONTAP 9.18.1。您可以在 NetApp Console 中查看此版本的基本版本以及可用於部署和升級的最新修補程式版本。
+
+若要了解 Cloud Volumes ONTAP 最新版本 NetApp Console 中引入的 Cloud Volumes ONTAP 功能，請參閱新增功能 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^]。
+
+
+
+[[9-18-1-p2-30-april-2026]]
+== 9.18.1 P2（2026 年 4 月 30 日）
+
+Cloud Volumes ONTAP 9.18.1 P2 修補程式現已可在 AWS、Azure 和 Google Cloud 中部署和升級。主控台將提示您將現有系統升級至此修補程式版本。
+
+
+NOTE: 對於 AWS，Cloud Volumes ONTAP 9.18.1 P2 是部署和升級的標準版本。任何低於 9.18.1 的版本或修補程式均不受支援。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.18.1P2["檢視 P2 修補程式中已修正的錯誤清單"^]（需要登入 NetApp Support Site）。
+
+
+
+[[9-18-1-p1-31-march-2026]]
+== 9.18.1 P1（2026 年 3 月 31 日）
+
+Cloud Volumes ONTAP 9.18.1 P1 修補程式現已可在 Azure 和 Google Cloud 中部署和升級。主控台將提示您將現有系統升級至此修補程式版本。
+
+
+NOTE: 此版本無法在 AWS 中部署和升級。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.18.1P1["檢視 P1 修補程式中已修正的錯誤清單"^]（需要登入 NetApp Support Site）。
+
+
+
+[[9-18-1-ga-10-february-2026]]
+== 9.18.1 GA（2026 年 2 月 10 日）
+
+Cloud Volumes ONTAP 9.18.1 正式版現已可在 Microsoft Azure 和 Google Cloud 中部署和升級。
+
+
+NOTE: 此版本無法在 Amazon Web Services (AWS) 中部署和升級。
+
+
+
+[[upgrade-notes]]
+== 升級說明
+
+請閱讀以下說明，以深入瞭解升級至此版本的相關資訊。
+
+
+
+[[how-to-upgrade]]
+=== 如何升級
+
+Cloud Volumes ONTAP 的升級必須透過 Console 完成。請勿使用 System Manager 或 CLI 升級 Cloud Volumes ONTAP。否則可能會影響系統穩定性。
+
+link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["了解 Console 通知您時如何進行升級"^]。
+
+
+
+[[supported-upgrade-path]]
+=== 支援的升級路徑
+
+您可以從 AWS、Azure 和 Google Cloud 上的 9.17.1 P1 及更高版本升級到 Cloud Volumes ONTAP 9.18.1。Console 將提示您將符合條件的 Cloud Volumes ONTAP 系統升級至此版本。
+
+
+
+[[downtime]]
+=== 停機時間
+
+* 單節點系統的升級會使系統離線最多 25 分鐘，在此期間 I/O 會中斷。
+* 升級 HA 配對不中斷營運、I/O 不中斷。在此不中斷營運的升級程序期間、每個節點都會串聯升級、以繼續為用戶端提供 I/O。
+

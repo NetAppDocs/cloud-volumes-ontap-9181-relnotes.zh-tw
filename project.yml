@@ -1,0 +1,102 @@
+---
+settings:
+  name: Cloud Volumes ONTAP release notes
+  downlevel: true
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  versions:
+  - version-number: 9.18.1
+    url: "/cloud-volumes-ontap-9181-relnotes"
+  - version-number: 9.19.1
+    url: "/cloud-volumes-ontap-relnotes"
+  - version-number: 9.17.1
+    url: "/cloud-volumes-ontap-9171-relnotes"
+  - version-number: 9.16.1
+    url: "/cloud-volumes-ontap-9161-relnotes"
+  - version-number: 9.15.1
+    url: "/cloud-volumes-ontap-9151-relnotes"
+  - version-number: 9.15.0
+    url: "/cloud-volumes-ontap-9150-relnotes"
+  - version-number: 9.14.1
+    url: "/cloud-volumes-ontap-9141-relnotes"
+  - version-number: 9.14.0
+    url: "/cloud-volumes-ontap-9140-relnotes"
+  - version-number: 9.13.1
+    url: "/cloud-volumes-ontap-9131-relnotes"
+  - version-number: 9.13.0
+    url: "/cloud-volumes-ontap-9130-relnotes"
+  - version-number: 9.12.1
+    url: "/cloud-volumes-ontap-9121-relnotes"
+  - version-number: 9.12.0
+    url: "/cloud-volumes-ontap-9120-relnotes"
+  - version-number: 9.11.1
+    url: "/cloud-volumes-ontap-9111-relnotes"
+  - version-number: 9.11.0
+    url: "/cloud-volumes-ontap-9110-relnotes"
+  - version-number: 9.10.1
+    url: "/cloud-volumes-ontap-9101-relnotes"
+  - version-number: 9.10.0
+    url: "/cloud-volumes-ontap-9100-relnotes"
+  - version-number: 9.9.1
+    url: "/cloud-volumes-ontap-991-relnotes"
+  - version-number: 9.9.0
+    url: "/cloud-volumes-ontap-990-relnotes"
+  - version-number: '9.8'
+    url: "/cloud-volumes-ontap-98-relnotes"
+  - version-number: '9.7'
+    url: "/cloud-volumes-ontap-97-relnotes"
+  - version-number: '9.6'
+    url: "/cloud-volumes-ontap-96-relnotes"
+  - version-number: '9.5'
+    url: "/cloud-volumes-ontap-95-relnotes"
+  - version-number: '9.4'
+    url: "/cloud-volumes-ontap-94-relnotes"
+  - version-number: '9.3'
+    url: "/cloud-volumes-ontap-93-relnotes"
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+sidebar:
+  entries:
+  - title: Cloud Volumes ONTAP 9.18.1 版本說明
+    url: "/index.html"
+  - title: 新增功能
+    url: "/reference-new.html"
+  - title: 授權總覽
+    url: "/concept-licensing.html"
+  - title: 支援的組態
+    entries:
+    - title: AWS
+      url: "/reference-configs-aws.html"
+    - title: Azure
+      url: "/reference-configs-azure.html"
+    - title: Google Cloud
+      url: "/reference-configs-gcp.html"
+  - title: 儲存限制
+    entries:
+    - title: AWS
+      url: "/reference-limits-aws.html"
+    - title: Azure
+      url: "/reference-limits-azure.html"
+    - title: Google Cloud
+      url: "/reference-limits-gcp.html"
+  - title: 已知問題
+    url: "/reference-issues.html"
+  - title: 已知限制
+    entries:
+    - title: 常見限制
+      url: "/reference-limitations.html"
+    - title: AWS 的限制
+      url: "/reference-limitations-aws.html"
+    - title: Azure 的限制
+      url: "/reference-limitations-azure.html"
+    - title: Google Cloud 的限制
+      url: "/reference-limitations-gcp.html"
+  - title: 雲端供應商整合
+    url: "/reference-provider-integrations.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family
