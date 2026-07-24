@@ -962,4 +962,8 @@
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Azure 的限制</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Google Cloud 的限制</block>
   <block id="b67ce24b0ef9db5e8910cc39a69b1ef6" category="sidebar">雲端供應商整合</block>
+  <block id="504a30935281c2b032cb969fd70d6274" category="section-title">9.18.1 P3（2026 年 7 月 22 日）</block>
+  <block id="f052dcc1c5054a042f1eef5b4ffda576" category="paragraph">Cloud Volumes ONTAP 9.18.1 P3 修補程式現已可在 AWS、Azure 和 Google Cloud 中部署和升級。主控台將提示您將現有系統升級至此修補程式版本。</block>
+  <block id="4c7cf73669136d536c96ca7317eb5ceb" category="inline-link-macro">檢視 P3 修補程式中已修正的錯誤清單</block>
+  <block id="62fdf1fa94de118a81fb9f2d073962e0" category="paragraph"><block ref="d03df7418785bb7a227c8d7d9af3263b" category="inline-link-macro-rx"></block>（需要登入 NetApp Support Site）。</block>
 </blocks>
